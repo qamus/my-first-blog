@@ -25,7 +25,10 @@ SECRET_KEY = '7vs&gtgnyam6tki9^!%(@jzph)9#++_56+x^4in)fjmvuh!zn('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'qendresa.pythonanywhere.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
